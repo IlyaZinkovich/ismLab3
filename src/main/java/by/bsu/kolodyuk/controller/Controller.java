@@ -5,9 +5,9 @@ import by.bsu.kolodyuk.generator.A5Generator;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.XYChart;
-import org.apache.commons.math3.distribution.CauchyDistribution;
 import org.apache.commons.math3.distribution.NormalDistribution;
 import org.apache.commons.math3.distribution.PascalDistribution;
+import org.apache.commons.math3.distribution.TDistribution;
 import org.apache.commons.math3.random.RandomGenerator;
 
 import java.net.URL;
@@ -23,7 +23,7 @@ public class Controller implements Initializable
     @FXML
     XYChart<Double, Double> gaussianChart;
     @FXML
-    XYChart<Double, Double> cauchyChart;
+    XYChart<Double, Double> studentChart;
 
 
     @Override
@@ -37,11 +37,11 @@ public class Controller implements Initializable
 
         PascalDistribution pascalDistribution = new PascalDistribution(generator, 50, 0.5);
         NormalDistribution gaussianDistribution = new NormalDistribution(generator, 0, 1, DEFAULT_INVERSE_ABSOLUTE_ACCURACY );
-        CauchyDistribution cauchyDistribution = new CauchyDistribution(generator, 0, 1, DEFAULT_INVERSE_ABSOLUTE_ACCURACY);
+        TDistribution studentDistribution = new TDistribution(generator, 10, TDistribution.DEFAULT_INVERSE_ABSOLUTE_ACCURACY);
 
         prepareChart(pascalChart, pascalDistribution, 200);
         prepareChart(gaussianChart, gaussianDistribution, 200, 10);
-        prepareChart(cauchyChart, cauchyDistribution, 200, 50);
+        prepareChart(studentChart, studentDistribution, 200, 50);
     }
 
 }
