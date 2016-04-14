@@ -1,4 +1,4 @@
-package by.bsu.kolodyuk.util;
+package by.bsu.zinkovich.util;
 
 import javafx.scene.chart.XYChart;
 import javafx.scene.chart.XYChart.Data;
@@ -12,8 +12,8 @@ import java.util.List;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
-import static by.bsu.kolodyuk.util.MomentUtils.empiricalFrequency;
-import static by.bsu.kolodyuk.util.MomentUtils.empiricalProbability;
+import static by.bsu.zinkovich.util.MomentUtils.empiricalFrequency;
+import static by.bsu.zinkovich.util.MomentUtils.empiricalProbability;
 import static java.util.Arrays.asList;
 import static org.apache.commons.lang3.ArrayUtils.toObject;
 

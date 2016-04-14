@@ -1,7 +1,7 @@
-package by.bsu.kolodyuk.controller;
+package by.bsu.zinkovich.controller;
 
 
-import by.bsu.kolodyuk.generator.A5Generator;
+import by.bsu.zinkovich.generator.A5Generator;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.chart.XYChart;
@@ -13,7 +13,7 @@ import org.apache.commons.math3.random.RandomGenerator;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import static by.bsu.kolodyuk.util.ChartUtils.prepareChart;
+import static by.bsu.zinkovich.util.ChartUtils.prepareChart;
 import static org.apache.commons.math3.distribution.CauchyDistribution.DEFAULT_INVERSE_ABSOLUTE_ACCURACY;
 
 public class Controller implements Initializable

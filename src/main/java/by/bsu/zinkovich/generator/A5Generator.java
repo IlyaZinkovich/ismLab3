@@ -1,4 +1,4 @@
-package by.bsu.kolodyuk.generator;
+package by.bsu.zinkovich.generator;
 
 
 import org.apache.commons.math3.random.BitsStreamGenerator;
@@ -6,7 +6,7 @@ import org.apache.commons.math3.random.BitsStreamGenerator;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static by.bsu.kolodyuk.util.BitsUtil.getBit;
+import static by.bsu.zinkovich.util.BitsUtil.getBit;
 
 public class A5Generator extends BitsStreamGenerator {
 

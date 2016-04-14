@@ -1,4 +1,4 @@
-package by.bsu.kolodyuk;
+package by.bsu.zinkovich;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

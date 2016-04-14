@@ -1,4 +1,4 @@
-package by.bsu.kolodyuk.generator;
+package by.bsu.zinkovich.generator;
 
 public class LFSRGenerator {
 

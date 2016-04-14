@@ -1,4 +1,4 @@
-package by.bsu.kolodyuk.util;
+package by.bsu.zinkovich.util;
 
 
 import java.util.List;

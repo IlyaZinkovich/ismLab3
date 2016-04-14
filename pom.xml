@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>by.bsu.kolodyuk</groupId>
+    <groupId>by.bsu.zinkovich</groupId>
     <artifactId>ism-lab3</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -42,7 +42,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>8.1.4</version>
                 <configuration>
-                    <mainClass>by.bsu.kolodyuk.Main</mainClass>
+                    <mainClass>by.bsu.zinkovich.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
